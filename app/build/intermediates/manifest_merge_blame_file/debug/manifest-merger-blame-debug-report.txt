@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smartBridge.groceryappsmart"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:6:5-30:19
+12        android:allowBackup="true"
+12-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\admin\.gradle\caches\transforms-3\39858a0edda35c9bad4a02052f2a3484\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@drawable/veggies"
+17-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:10:9-41
+18        android:label="@string/app_name"
+18-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@drawable/veggies"
+19-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:12:9-46
+20        android:supportsRtl="true"
+20-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:13:9-35
+21        android:theme="@style/Theme.GroceryApp" >
+21-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:14:9-48
+22        <activity
+22-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:16:9-24:16
+23            android:name="com.smartBridge.groceryappsmart.SplashActivity"
+23-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:17:13-43
+24            android:exported="true" >
+24-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:18:13-36
+25            <intent-filter>
+25-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:19:9-23:25
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:20:13-65
+26-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:20:21-62
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:22:13-73
+28-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:22:23-70
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:25:9-29:20
+32            android:name="com.smartBridge.groceryappsmart.MainActivity"
+32-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:26:13-41
+33            android:exported="true" >
+33-->C:\Users\admin\AndroidStudioProjects\Intern-App-grocery\app\src\main\AndroidManifest.xml:27:13-36
+34        </activity>
+35
+36        <service
+36-->[androidx.room:room-runtime:2.4.0] C:\Users\admin\.gradle\caches\transforms-3\7f2eb8cff5285e112a1726a008e28cc5\transformed\room-runtime-2.4.0\AndroidManifest.xml:25:9-28:40
+37            android:name="androidx.room.MultiInstanceInvalidationService"
+37-->[androidx.room:room-runtime:2.4.0] C:\Users\admin\.gradle\caches\transforms-3\7f2eb8cff5285e112a1726a008e28cc5\transformed\room-runtime-2.4.0\AndroidManifest.xml:26:13-74
+38            android:directBootAware="true"
+38-->[androidx.room:room-runtime:2.4.0] C:\Users\admin\.gradle\caches\transforms-3\7f2eb8cff5285e112a1726a008e28cc5\transformed\room-runtime-2.4.0\AndroidManifest.xml:27:13-43
+39            android:exported="false" />
+39-->[androidx.room:room-runtime:2.4.0] C:\Users\admin\.gradle\caches\transforms-3\7f2eb8cff5285e112a1726a008e28cc5\transformed\room-runtime-2.4.0\AndroidManifest.xml:28:13-37
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+43            android:authorities="com.smartBridge.groceryappsmart.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\5599effd9ad40bca005e593cdd894a89\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\admin\.gradle\caches\transforms-3\b1620bace8a059a8fba1f86b24b9b083\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\admin\.gradle\caches\transforms-3\b1620bace8a059a8fba1f86b24b9b083\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\admin\.gradle\caches\transforms-3\b1620bace8a059a8fba1f86b24b9b083\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>
